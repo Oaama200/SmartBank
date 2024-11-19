@@ -1,3 +1,9 @@
+**Developers**
+Eric Duncan
+JJ Accomando
+Muath Alasaadi
+Shen Tang
+
 **Architecture**
 
 The architecture of the SmartBank App is multi-faceted. The sections below will discuss the database architecture as well as the project architecture used in this application.

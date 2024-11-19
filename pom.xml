@@ -96,7 +96,42 @@
       <artifactId>mybatis</artifactId>
       <version>3.5.16</version>
     </dependency>
+    <!-- carina dependency -->
+    <dependency>
+      <groupId>com.zebrunner</groupId>
+      <artifactId>carina-api</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>com.zebrunner</groupId>
+      <artifactId>carina-core</artifactId>
+      <version>1.2.10</version>
+    </dependency>
+
+
+<!--      <dependency>-->
+<!--        <groupId>org.testng</groupId>-->
+<!--        <artifactId>testng</artifactId>-->
+<!--        <version>7.4.0</version>-->
+<!--        <scope>test</scope>-->
+<!--      </dependency>-->
+
+
+
   </dependencies>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+    <repository>
+      <id>zebrunner</id>
+      <url>https://repository.zebrunner.com/repository/maven-public/</url>
+    </repository>
+  </repositories>
 
   <distributionManagement>
     <repository>

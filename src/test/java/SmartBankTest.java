@@ -417,8 +417,8 @@ public class SmartBankTest {
         transactionService.createTransaction(TRANSACTION_1);
         Transaction transaction = transactionService.getTransaction(TRANSACTION_1.getTransaction_id());
         System.out.println("Transaction successfully created: " + transaction.getTransaction_id());
-        System.out.println("Account_balance_before: " + transaction.getAccount_balance_before());
-        System.out.println("Account_balance_after: " + transaction.getAccount_balance_after());
+//        System.out.println("Account_balance_before: " + transaction.getAccount_balance_before());
+//        System.out.println("Account_balance_after: " + transaction.getAccount_balance_after());
         checkTransaction01(transaction);
     }
 
@@ -440,8 +440,8 @@ public class SmartBankTest {
         transactionService.createTransaction(TRANSACTION_2);
         Transaction transaction = transactionService.getTransaction(TRANSACTION_2.getTransaction_id());
         System.out.println("Transaction successfully created: " + transaction.getTransaction_id());
-        System.out.println("Account_balance_before: " + transaction.getAccount_balance_before());
-        System.out.println("Account_balance_after: " + transaction.getAccount_balance_after());
+//        System.out.println("Account_balance_before: " + transaction.getAccount_balance_before());
+//        System.out.println("Account_balance_after: " + transaction.getAccount_balance_after());
         checkTransaction02(transaction);
     }
 
@@ -463,8 +463,8 @@ public class SmartBankTest {
         transactionService.createTransaction(TRANSACTION_3);
         Transaction transaction = transactionService.getTransaction(TRANSACTION_3.getTransaction_id());
         System.out.println("Transaction successfully created: " + transaction.getTransaction_id());
-        System.out.println("Account_balance_before: " + transaction.getAccount_balance_before());
-        System.out.println("Account_balance_after: " + transaction.getAccount_balance_after());
+//        System.out.println("Account_balance_before: " + transaction.getAccount_balance_before());
+//        System.out.println("Account_balance_after: " + transaction.getAccount_balance_after());
         checkTransaction03(transaction);
     }
 
